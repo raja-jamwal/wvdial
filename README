@@ -1,0 +1,5 @@
+1.6 ( 2011 )
+
+- Added support to config sciprt(wvdial.conf) for flow control
+
+    Default is hardware flow control Added 2 config options, namely "Software Flow = <yes, no>" and "Asyncmap = <32 bit hex value>" Default is Software Flow = no and if Software Flow control is used default Asyncmap is "0x000a0000" which uses XON as 0x11 and XOFF as 0x13, Raja Jamwal <linux1@zoho.com>
